@@ -1,0 +1,13 @@
+How to Test ApacheMQ messaging:
+------------------------------
+Apache ActiveMQ is a message Broker used for communicating messages between Sender and Receiver.
+
+First download the apache activemq jar through maven or if it is manual, add the jar file to the build Path
+
+Navigate to bin folder and start message broker through 
+activemq start
+
+Open web console by http://localhost:8161/admin/
+
+and then navigate to Send and send a message
+The message sent should be displayed under the Queue specified.
